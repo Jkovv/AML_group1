@@ -19,6 +19,12 @@ dataset = load_from_disk("processed_bird_data")
 test_dataset = load_from_disk("processed_bird_test_data")
 ```
 
-## 2. `baseline_model.ipynb`
+## 2. `new_baseline_model.ipynb`
+
+Baseline/benchmark model, using Transfer Learning.
+
+Loads Pre-trained Model (MobileNetV2) using pretrained weights; retrains/finetunes for **5 epochs**.
+
+Achieves 55-60% accuracy (saved in `new_baseline_model` folder).
 
 ## 3. `model.ipynb`
