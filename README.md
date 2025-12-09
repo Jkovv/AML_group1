@@ -1,4 +1,4 @@
-## 1. `01_data_prep.ipynb`
+## 1. `data_prep.ipynb`
 The Data Engineering pipeline notebook. Converts all images to RGB (fixing grayscale errors) and standardizes file paths, fixes class labels (1-etc to 0-...), and saves the dataset Apache Arrow format (`processed_bird_data_FULL`) for instant loading. The notebook then also splits this set into Training and Validation sets (85/15 split, but easy to change) in the folder `processed_bird_data`. Finally, test set is also saved in that format (`processed_bird_test_data`).
 
 The processed files are too large for GitHub, so they are stored on OneDrive - 
@@ -17,3 +17,8 @@ dataset = load_from_disk("processed_bird_data")
 
 # For test set:
 test_dataset = load_from_disk("processed_bird_test_data")
+```
+
+## 2. `baseline_model.ipynb`
+
+## 3. `model.ipynb`
