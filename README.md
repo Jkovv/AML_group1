@@ -1,7 +1,7 @@
 ## 1. `data_prep.ipynb`
 The Data Engineering pipeline notebook. Converts all images to RGB (fixing grayscale errors) and standardizes file paths, fixes class labels (1-etc to 0-...), and saves the dataset Apache Arrow format (`processed_bird_data_FULL`) for instant loading. The notebook then also splits this set into Training and Validation sets (85/15 split, but easy to change) in the folder `processed_bird_data`. Finally, test set is also saved in that format (`processed_bird_test_data`).
 
-The processed files are too large for GitHub, so they are stored on OneDrive - 
+The processed files are too large for GitHub, so they are stored on OneDrive — [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
 
 To use them, place the folder in the project root, and use this code to load the data and create the Validation Set:
 
