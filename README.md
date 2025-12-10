@@ -27,4 +27,10 @@ Loads Pre-trained Model (MobileNetV2) using pretrained weights; retrains/finetun
 
 Achieves 55-60% accuracy (saved in `new_baseline_model` folder).
 
-## 3. `model.ipynb`
+## 3. `new_model.ipynb`
+
+New hybrid model (Convolution + Attention) with 25% accuracy.
+
+Output model file yet too large, so uploaded to OneDrive (`new_model` folder) — [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
+
+The rest - Julia's stuff `model.ipynb`
