@@ -46,3 +46,6 @@ An attempt at VIT - for comparability with the main model
 
 ## 6. `model_ResNet`
 An attempt at ResNet - for comparability with the main model 
+
+## 7. `model_convext`
+ConvNeXt model attempt (title up for discussion) - for comparability with the main model (9% best accuracy).
