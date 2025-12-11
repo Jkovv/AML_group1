@@ -33,4 +33,11 @@ New hybrid model (Convolution + Attention) with 25% accuracy.
 
 Output model file yet too large, so uploaded to OneDrive (`new_model` folder) — [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
 
-The rest - Julia's stuff `model.ipynb`
+## 4. 'model_CNN'
+An attempt at CNN - for comparability with the main model 
+
+## 5. 'model_VIT'
+An attempt at VIT - for comparability with the main model 
+
+## 6. 'model_ResNet'
+An attempt at ResNet - for comparability with the main model 
