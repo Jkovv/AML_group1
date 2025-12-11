@@ -1,3 +1,7 @@
+The outline: we created a preprocessing pipeline, utilized a base model (MobileNetV2 from Hugging Face), created a hybrid model (Convolution + Attention) and a few simpler models for context (CNN, VIT, ResNet).
+
+Files:
+
 ## 1. `data_prep.ipynb`
 The Data Engineering pipeline notebook. Converts all images to RGB (fixing grayscale errors) and standardizes file paths, fixes class labels (1-etc to 0-...), and saves the dataset Apache Arrow format (`processed_bird_data_FULL`) for instant loading. The notebook then also splits this set into Training and Validation sets (85/15 split, but easy to change) in the folder `processed_bird_data`. Finally, test set is also saved in that format (`processed_bird_test_data`).
 
