@@ -1,4 +1,5 @@
-The outline: we created a preprocessing pipeline, utilized a base model (MobileNetV2 from Hugging Face), created a hybrid model (Convolution + Attention) and a few simpler models for context (CNN, VIT, ResNet).
+### The outline: 
+we created a preprocessing pipeline, utilized a base model (MobileNetV2 from Hugging Face), created a hybrid model (Convolution + Attention) and a few simpler models for context (CNN, VIT, ResNet).
 
 Files:
 
