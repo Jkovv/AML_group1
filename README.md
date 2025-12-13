@@ -39,16 +39,13 @@ New hybrid model (Convolution + Attention) with 25% accuracy. # todo: check val 
 Output model file yet too large, so uploaded to OneDrive (`new_model` folder) — [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
 
 ## 4. `model_CNN.ipynb`
-An attempt at CNN - for comparability with the main model 
+An attempt at CNN - for comparability with the main model.
 
-## 5. `model_VIT.ipynb`
-An attempt at VIT - for comparability with the main model 
+## 5. `model_ResNet.ipynb`
+An attempt at ResNet - for comparability with the main model.
 
-## 6. `model_ResNet.ipynb`
-An attempt at ResNet - for comparability with the main model 
-
-## 7. `model_convext.ipynb`
+## 6. `model_convext.ipynb`
 ConvNeXt model attempt (title up for discussion) - for comparability with the main model (9% best accuracy).
 
-## 8. `model_MAE_ViT.ipynb`
-Nuclear option - uses masked autoencoders to pre-train model on the images themselves without labels.
+## 7. `model_MAE_ViT.ipynb`
+ViT, but nuclear option - uses masked autoencoders to pre-train model on the images themselves without labels.
