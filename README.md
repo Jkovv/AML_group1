@@ -24,7 +24,7 @@ dataset = load_from_disk("processed_bird_data")
 test_dataset = load_from_disk("processed_bird_test_data")
 ```
 
-## 2. `new_baseline_model.ipynb`
+## 2. `baseline_model.ipynb`
 
 Baseline/benchmark model, using Transfer Learning.
 
@@ -49,3 +49,6 @@ An attempt at ResNet - for comparability with the main model
 
 ## 7. `model_convext`
 ConvNeXt model attempt (title up for discussion) - for comparability with the main model (9% best accuracy).
+
+## 8. `model_MAE_ViT`
+Nuclear option - uses masked autoencoders to pre-train model on the images themselves without labels.
