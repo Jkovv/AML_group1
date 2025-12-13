@@ -34,9 +34,11 @@ Achieves 55-60% accuracy (saved in `baseline_model` folder).
 
 ## 3. `model_coatnet.ipynb`
 
-New hybrid model (Convolution + Attention) with 25% accuracy. # todo: check val acc vs train acc 
+New hybrid model (Convolution + Attention) with 25% accuracy.
 
 Output model file yet too large, so uploaded to OneDrive (`new_model` folder) — [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
+
+Uses optuna to optimize for best hyperparameters. Model is created with random seed 42, and then seeds 1 and 100 are checked (and if they are better, they are saved).
 
 ## 4. `model_CNN.ipynb`
 An attempt at CNN - for comparability with the main model.
@@ -49,3 +51,7 @@ ConvNeXt model attempt (title up for discussion) - for comparability with the ma
 
 ## 7. `model_MAE_ViT.ipynb`
 ViT, but nuclear option - uses masked autoencoders to pre-train model on the images themselves without labels.
+
+## 8. `old_model_coatnet.ipynb`
+
+Coatnet version without optimization, directly with initially assumed parameters. Might be useful for comparison/hyperparameter study.
