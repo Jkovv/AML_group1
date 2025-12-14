@@ -25,7 +25,7 @@ TO use, this can be used in the model codes:
 ### 4. Comparative Models [validation accuracy]
 * **`model_CNN.ipynb`**: Standard CNN for baseline comparison (~8% accuracy).
 * **`model_ResNet.ipynb`**: ResNet implementation (~15% accuracy).
-* **`model_convext.ipynb`**: ConvNeXt implementation (~9% accuracy).
+* **`model_convnext.ipynb`**: ConvNeXt implementation (~9% accuracy).
 * **`model_MAE_step1_pretrain.ipynb`** & **`_step2_finetune.ipynb`**: Self-supervised pre-training using **Masked Autoencoders (ViT)**.
 
 ### 5. Legacy
