@@ -22,9 +22,9 @@ TO use, this can be used in the model codes:
 ### 3. Main Architecture
 * **`model_coatnet.ipynb`** - Custom **CoAtNet** (Hybrid) trained from scratch. Uses Optuna hyperparameter tuning, builda model, and does seed stability checks. Final model's on OneDrive as well, in `final_new_model` folder - [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia). Checkpoint model saves from seed stability runs are also located in the folder `seedcheckpoints`. The optimization checkpoints are available in `dec13modelcheckpoints`. The file also handles the test batch and outputs Kaggle submission csv `coatnet_submission.csv`.
 
-### 4. Comparative Models
-* **`model_CNN.ipynb`**: Standard CNN for baseline comparison.
-* **`model_ResNet.ipynb`**: ResNet implementation.
+### 4. Comparative Models [validation accuracy]
+* **`model_CNN.ipynb`**: Standard CNN for baseline comparison (~8% accuracy).
+* **`model_ResNet.ipynb`**: ResNet implementation (~15% accuracy).
 * **`model_convext.ipynb`**: ConvNeXt implementation (~9% accuracy).
 * **`model_MAE_step1_pretrain.ipynb`** & **`_step2_finetune.ipynb`**: Self-supervised pre-training using **Masked Autoencoders (ViT)**.
 
