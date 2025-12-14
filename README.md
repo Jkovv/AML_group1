@@ -20,7 +20,7 @@ TO use, this can be used in the model codes:
 * **`baseline_model.ipynb`** - Pre-trained MobileNetV2, with saved `baseline_best_model.pth`.
 
 ### 3. Main Architecture
-* **`model_coatnet.ipynb`** - Custom **CoAtNet** (Hybrid) trained from scratch. Uses Optuna hyperparameter tuning, builda model, and does seed stability checks. Final model's on OneDrive as well, in `final_new_model` folder - [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia). Checkpoint model saves from seed stability runs are also located in the folder `seedcheckpoints`.
+* **`model_coatnet.ipynb`** - Custom **CoAtNet** (Hybrid) trained from scratch. Uses Optuna hyperparameter tuning, builda model, and does seed stability checks. Final model's on OneDrive as well, in `final_new_model` folder - [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia). Checkpoint model saves from seed stability runs are also located in the folder `seedcheckpoints`. The optimization checkpoints are available in `dec13modelcheckpoints`.
 
 ### 4. Comparative Models
 * **`model_CNN.ipynb`**: Standard CNN for baseline comparison.
@@ -29,4 +29,4 @@ TO use, this can be used in the model codes:
 * **`model_MAE_step1_pretrain.ipynb`** & **`_step2_finetune.ipynb`**: Self-supervised pre-training using **Masked Autoencoders (ViT)**.
 
 ### 5. Legacy
-* **`old_model_coatnet.ipynb`**: Pre-optimization version of the main model (will be used for comparison). The saved models/checkpoints available in the `dec13modelcheckpoints` folder - [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
+* **`old_model_coatnet.ipynb`**: Pre-optimization version of the main model (will be used for comparison). The saved models/checkpoints available in the `old_hyperparam_model_checlpoints` folder - [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
