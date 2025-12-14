@@ -31,3 +31,13 @@ TO use, this can be used in the model codes:
 ### 5. Legacy
 * **`old_model_coatnet.ipynb`**: Pre-optimization version of the main model (will be used for comparison). The saved models/checkpoints available in the `old_hyperparam_model_checlpoints` folder - [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
 * **`model_coatnet_augmentation.ipynb`** - test/experiment file in an attempt to reduce coanet overfitting. augments the images to stop model from memorizing. Output file `coatnet_augmented_submission.csv`. Final model can be found in the `coatnet_aug_experiment\best_aug_model` folder - [OneDrive](https://amsuni-my.sharepoint.com/:f:/r/personal/rezi_getsadze_student_uva_nl/Documents/AML?csf=1&web=1&e=B0Slia).
+* 
+
+### 6. Error Analysis
+`erroranalysis.ipynb` - Diagnostic notebook designed to interpret model performance beyond simple accuracy metrics.
+* **Top Losses Visualization:** Displays test images with the highest loss, highlighting instances where the model was confidently incorrect (e.g., confusing visually similar species).
+* **Confusion Matrix:** Heatmaps to identify specific clusters of bird species that the model frequently misclassifies.
+
+### 7. Utilities
+
+
