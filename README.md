@@ -9,7 +9,8 @@ A complete machine learning pipeline for bird species classification.
 
 ### 1. Data Engineering
 * **`data_prep.ipynb`** - ETL pipeline. Standardizes paths, fixes grayscale images, and corrects labels. Applies data split adn saves in Apache Arrow format for instant loading. Obviously those files are too big to upload here so they're at [OneDrive](https://amsuni-my.sharepoint.com/:f:/g/personal/rezi_getsadze_student_uva_nl/IgAYqAmSNJUiQaxMoPGTHkanARL3nATHglMr0nz9Y8AF-G4?e=Yx6cxA).
-TO use, this can be used in the model codes:
+TO use, this can be used in the model codes (make sure the folders are in the same repository as the notebook):
+
         ```python
         from datasets import load_from_disk
         dataset = load_from_disk("processed_bird_data") # Train/Val
